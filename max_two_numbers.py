@@ -12,8 +12,6 @@ def factorial(num):
             fact *= num
             num -= 1
         return fact
-
-
 while True:
     number = int(input("Enter the number: "))
     print("The factorial of",number,"is",factorial(number))
